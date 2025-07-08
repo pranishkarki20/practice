@@ -1,33 +1,41 @@
 #include <stdio.h>
-
 int main() {
-    char day;
+    int num;
 
-    printf("Enter a number between a- h: ");
-    scanf("%c", &day);
+    printf("Enter a number between  1-10: ");
+    scanf(" %d", &num);
 
-    switch (day) {
-        case 'a':
-            printf("Sunday\n");
+    switch (num) {
+        case 1:
+            printf("odd");
             break;
-        case    'b':
-            printf("Monday\n");
+        case 2:
+            printf("even\n");
             break;
-        case 'c':
-            printf("Tuesday\n");
+        case 3:
+            printf("odd\n");
             break;
-        case 'd':
-            printf("Wednesday\n");
+        case 4:
+            printf("even\n");
             break;
-        case 'e':
-            printf("Thursday\n");
+        case 5:
+            printf("odd\n");
             break;
-        case 'f':
-            printf("Friday\n");
+        case 6 :
+            printf("even\n");
             break;
-        case 'g':
-            printf("Saturday\n");
+        case 7:
+            printf("odd\n");
             break;
+        case 8:
+        printf("even\n");   
+            break;
+            case 9:
+            printf("odd\n");    
+            break;
+        case 10:    
+        printf("even\n");
+            break;      
         default:
             printf("Invalid input\n");
     }
