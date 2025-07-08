@@ -1,31 +1,31 @@
 #include <stdio.h>
 
 int main() {
-    int day;
+    char day;
 
-    printf("Enter a number between 1 - 7: ");
-    scanf("%d", &day);
+    printf("Enter a number between a- h: ");
+    scanf("%c", &day);
 
     switch (day) {
-        case 1:
+        case 'a':
             printf("Sunday\n");
             break;
-        case 2:
+        case    'b':
             printf("Monday\n");
             break;
-        case 3:
+        case 'c':
             printf("Tuesday\n");
             break;
-        case 4:
+        case 'd':
             printf("Wednesday\n");
             break;
-        case 5:
+        case 'e':
             printf("Thursday\n");
             break;
-        case 6:
+        case 'f':
             printf("Friday\n");
             break;
-        case 7:
+        case 'g':
             printf("Saturday\n");
             break;
         default:
