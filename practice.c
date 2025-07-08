@@ -1,20 +1,14 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main() {
-    char answer[100];
-    printf("What is your name? ");
-    fgets(answer, sizeof(answer), stdin);
-    // Remove trailing newline if present
-    size_t len = strlen(answer);
-    if (len > 0 && answer[len - 1] == '\n') {
-        answer[len - 1] = '\0';
-    }
-    printf("Hello, %s!\n", answer);
-    return 0;
-}
-#include <stdio.h>
-int main() {
-    string answer = get_string("What is your name? ");
-    printf("Hello, %s!\n", answer);
+int a;
+    printf("enter a number;\n");
+   scanf("%d",a);
+   if (a < 18)
+   {
+    printf("your  age is not adult age \n");
+   }
+   else {
+    printf("your are not adult age \n");
+   }
     return 0;
 }
