@@ -9,7 +9,7 @@
     }
     else
     {
-        printf("Lowercase\n");
+        printf("Lowrcase\n");
     }
     return 0;
  }
