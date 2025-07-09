@@ -10,4 +10,5 @@
     {
         printf("Lowercase\n");
     }
+    return 0;
  }
