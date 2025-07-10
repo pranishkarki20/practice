@@ -2,7 +2,7 @@
 int main() {
     int i; //iterator , counter variable
     // for loop
-    for (i=0; i<=10;i++){
+    for (i=0; i<=11;i++){
         printf(" %d", i);
     }
 }
