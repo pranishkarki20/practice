@@ -6,6 +6,10 @@ int main () {
     scanf("%d", &s);
     for (i = 1; i <= s; i++) {
         sum += i;
-    }printf("the sum of first %d natural number is %d", s, sum);
+    }printf("the sum of first %d natural number is %d\n", s, sum);
+    
+    for (i = 1; i <= s; i++) {
+        printf("Hello world \n");
+    }
     return 0;
 }
