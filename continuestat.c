@@ -1,9 +1,11 @@
 #include<stdio.h>
- int main(){
-    for (int i=5; i<=50; i++){
+ int main(){ 
+    int i = 5;
+    do{
         if(i%2==0){
-            continue;
+            i++;
+        continue;
         }
         printf("%d \n", i);
-    }
+    } while (i <= 50);
  }
