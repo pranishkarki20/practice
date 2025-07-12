@@ -4,11 +4,11 @@
      do {
         printf("Enter a number ");
         scanf("%d", &n);
-        if(n%2 != 0) {
+        if(n%7 == 0) {
           break;
         }
      } while (1);
-     printf("you entered an even number %d\n", n);
+     printf("you entered a multiple of 7: %d\n", n);
      return 0;
  }
  //flowchart+----------------------+
