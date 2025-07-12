@@ -7,5 +7,6 @@ void printNumbers(); // function prototype
     }
     void  printNumbers() {     //function definition
         printf("1 2 3 4 5\n");
+        printf("My name is pranish karki\n");
 
     }
