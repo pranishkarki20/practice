@@ -1,11 +1,11 @@
 #include<stdio.h>
-void printNumbers(); 
-    int main () {
+void printNumbers(); // function prototype
+    int main () {// function call
         printNumbers();
         printf("Hello, World!\n");
         return 0;
     }
-    void  printNumbers() {
+    void  printNumbers() {//function definition
         printf("1 2 3 4 5\n");
 
     }
