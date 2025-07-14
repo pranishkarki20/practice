@@ -10,5 +10,5 @@ int main(){
     return 1 ; 
  }
     int sumNm =  sum (n-1); // sum of 1 to n 
-    return sumNm + n;
+    return sumNm * n;
 }
