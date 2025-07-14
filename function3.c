@@ -1,11 +1,16 @@
 #include <stdio.h>
-#include <math.h> 
+//function prototype 
+  void sum(int a);
+
+ //function call 
 int main() {
-    printf("Enter a numbers whose square you want to get : ");
-     int a; 
+    printf("Enter two numbers: ");
+    int a; 
    scanf("%d", &a);
-    printf("The square of %d is %.0f\n", a , pow(a, 2));
     return 0 ;
 }
-
+ void sum(int a) { // function definition
+    for (int i = 1; i <= 1; i++) {
+        printf("%d ", i);
+    }
  
